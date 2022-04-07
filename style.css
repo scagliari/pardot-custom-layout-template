@@ -1,0 +1,467 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap');
+
+
+.navbar {
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.navbar-light .navbar-toggler {
+  color: #6bc9ea;
+}
+
+.logo {
+  width: 80px;
+  display: block;
+margin-left: auto;
+margin-right: auto;
+padding-top: 70px;
+padding-bottom: 10px;
+
+}
+
+
+.containerheader h1 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 35px;
+  line-height: 48px;
+  letter-spacing: 1px;
+
+}
+
+.containerheader h2 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  letter-spacing: 1px;
+  color: #ffffff;
+  font-size: 21px;
+  line-height: 30px;
+  text-align: center;
+  padding-bottom: 25px;
+}
+
+.topbotton {
+  text-decoration: none;
+  color: #ffffff;
+  letter-spacing: 1px;
+  border: solid 2px #ffffff;
+  padding: 15px 40px;
+  background-color: transparent;
+}
+
+.topbotton:hover {
+  background-color: #0d7fb3;
+  border: none;
+}
+
+body {
+  background-color: #ffffff;
+  color: #4e4e4e;
+  font-family: 'Arial', sans-serif;
+  width: 100%;
+    overflow-x: hidden;
+}
+
+
+
+ h3 {
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  font-size: 45px;
+  font-weight: bold;
+  color: #0e7eb4;
+  padding-bottom: 0px;
+}
+
+
+
+
+
+.right {
+  text-align: right;
+  padding-right: 50px;
+
+}
+
+.center {
+  text-align: center;
+
+}
+
+.center a {
+  text-decoration: none;
+  color: white;
+}
+
+
+
+.button {
+  padding-top: 10px;
+}
+
+
+ /* First Section */
+
+.align-items-center {
+  -ms-flex-align: center;
+  align-items: center;
+}
+.d-flex {
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.img-fluid {
+  width: 100%;
+
+}
+
+ /* First Section */
+
+
+.image-overlay {
+  object-fit: cover;
+  background-color: #FDC9B3;
+  height: 500px;
+  width: 500px;
+}
+
+.jumbotron {
+  background-image: url("images/backhouse.jpg");
+  margin-top: 20px;
+  height: 600px;
+  background-position: center;
+ background-size: cover;
+}
+
+.vertical-center {
+  min-height: 60%;  /* Fallback for browsers do NOT support vh unit */
+  min-height: 60vh; /* These two lines are counted as one :-)       */
+  display: flex;
+  align-items: center;
+}
+
+
+
+.button:hover {
+  background-color: #004b54;
+  color: white;
+}
+
+.first {
+  background-color: #004b54;
+  color: white;
+}
+
+.container img {
+  width: 98%;
+  display: block;
+  margin: auto;
+}
+
+.container p {
+  font-size: 16px;
+}
+
+.container h2 {
+  font-weight: bold;
+  font-size: 45px;
+  padding-bottom: 15px;
+  color: #0d7fb3;
+}
+
+.benefits {
+  background: rgb(10,127,178);
+background: linear-gradient(145deg, rgba(10,127,178,1) 48%, rgba(57,165,204,1) 86%);
+  padding: 20px 20px;
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 26px;
+  color: #ffffff;
+
+}
+
+.box {
+  border: solid 1px #ffffff;
+  padding: 0px 20px;
+  height: 170px;
+  display: flex;
+justify-content: center; /* align horizontal */
+align-items: center; /* align vertical */
+
+}
+
+.box-image {
+
+  padding: 0px 20px;
+  height: 170px;
+  display: flex;
+justify-content: center; /* align horizontal */
+align-items: center; /* align vertical */
+}
+
+
+.box {
+  vertical-align: middle;
+  font-family: 'Roboto', sans-serif;
+  color: #ffffff;
+}
+
+
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #0e7eb4;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #0e7eb4;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+  color: #0e7eb4;
+}
+
+.box-image img {
+  width: 100px;
+}
+
+.containerheader {
+  position: relative;
+  text-align: center;
+  width: 100%;
+  overflow-x: hidden;
+
+}
+
+.centered {
+  position: absolute;
+  top: 40px;
+  text-align: center;
+  padding: 20px 50px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.mainimage {
+  height: 550px;
+  margin-left: -480px;
+
+
+}
+
+.gradient {
+  height: 550px;
+  background: rgb(10,127,178);
+background: linear-gradient(145deg, rgba(10,127,178,1) 48%, rgba(57,165,204,1) 86%);
+}
+
+
+
+.form-col {
+  padding-top: 30px;
+  padding-bottom: 50px;
+
+}
+
+.box a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.box a:hover {
+  color: #ffffff;
+}
+
+.footer {
+  background-color: #0e7eb4;
+}
+
+.nav-link:hover {
+  color: #6bc9ea !important;
+
+}
+
+/* Pardot Form Styling */
+
+p.pd-text label, p.pd-select label, p.pd-textarea label {display:none !important;}
+
+#pardot-form input {
+font-weight: normal;
+margin-right: 5px;
+padding: 2px;
+border: solid 2px #0e7eb4;
+border-radius: 5px;
+padding: 10px 0px 10px 10px;
+width: 85%;
+font-size: 16px;
+}
+
+
+
+#pardot-form input[type=submit] {
+background-color: #0e7eb4;
+width: 85%;
+color: #ffffff;
+align-items: center;
+font-weight: bold;
+border: none;
+text-align: center;
+
+}
+
+
+#pardot-form input[type=submit]:hover {
+background-color: #6bc9ea;
+
+}
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 30px;
+  right: 35px;
+  z-index: 99;
+  font-size: 30px;
+  border: none;
+  outline: none;
+  background-color: #6bc9ea;
+  color: white;
+  cursor: pointer;
+  padding: 5px 20px;
+  border-radius: 50px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+#myBtn:hover {
+  background-color: #02394c;
+}
+
+.btn-outline-light:hover {
+  background-color: #ebfbff;
+  color: #0e7eb4;
+}
+
+
+
+
+@media only screen and (min-width: 820px) {
+
+  .logo {
+    padding-top: 20px;
+  }
+
+  .cont2 {
+    direction: rtl;
+  }
+
+
+
+.centered {
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+
+}
+
+.logo {
+  width: 80px;
+  padding-bottom: 10px;
+}
+
+.containerheader h2 {
+    padding: 0px 100px;
+  }
+
+  .mainimage {
+    width: 100%;
+    margin-left: 0px;
+    object-fit: cover;
+  }
+
+}
+
+
+@media only screen and (min-width: 992px) {
+
+  .logo {
+    width: 100px;
+
+  }
+
+.containerheader h2 {
+    font-size: 20px;
+    padding: 15px 200px;
+  }
+
+  .container p {
+    font-size: 20px;
+  }
+
+  .benefits {
+
+    font-size: 22px;
+      padding: 20px 150px;
+
+  }
+
+
+.form-col {
+  background-color: #ebfbff;
+  padding-top: 30px;
+  padding-bottom: 50px;
+  margin: 70px 100px;
+}
+
+.jumbotron {
+  height: 670px;
+}
+
+
+
+.centered {
+
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+
+}
+
+}
+
+
+@media only screen and (min-width: 1440px) {
+
+
+
+.logo {
+  width: 100px;
+}
+
+.containerheader h1 {
+  font-size: 55px;
+  padding-top: 20px;
+}
+
+.containerheader h2 {
+  font-size: 34px;
+}
+
+.container p {
+  font-size: 24px;
+
+}
+
+.benefits {
+  font-size: 32px;
+  line-height: 38px;
+}
+
+
+
+}
